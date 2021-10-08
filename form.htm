@@ -1,0 +1,92 @@
+<link href="payment-form.css" rel="stylesheet">
+<form>
+</form>
+<h1>STUDENT ID</h1>
+<p>BASIC DETAILS<strong><abbr title="required">...</abbr></strong>.</p>
+<section>
+    <h2>DESIGNATION(X,XI,XII)</h2>
+    <fieldset>
+      <legend>..PLEASE SELECT..</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="K" >
+              X
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Q">
+              XI
+            </label>
+          </li>
+          <li>
+            <label for="title_3">
+              <input type="radio" id="title_3" name="title" value="J">
+              XII
+            </label>
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="name">
+        <span>Name: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="name" name="username">
+    </p>
+    <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail">
+    </p>
+    <p>
+      <label for="pwd">
+        <span>Address</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="Address" id="Address" name="Address">
+    </p>
+</section>
+<section>
+    <h2>..STUDENT INFORMATION..</h2>
+    <p>
+      <label for="card">
+        <span>BOARD</span>
+      </label>
+      <select id="card" name="usercard">
+        <option value="visa">STATE BOARD</option>
+        <option value="mc">CBSE</option>
+        <option value="amex">ICSE</option>
+      </select>
+    </p>
+    <p>
+      <label for="number">
+        <span>ROLL NO:-</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="tel" id="number" name="cardnumber">
+    </p>
+    <p>
+      <label for="date">
+        <span>DATE OF BIRTH:-</span>
+        <strong><abbr title="required">*</abbr></strong>
+        <em>.</em>
+      </label>
+      <input type="date" id="date" name="expiration">
+    </p>
+</section>
+<section>
+
+<h1>ONE LAST STEP</h1>
+
+<form action="/action_page.php">
+  <label for="MARKS">YOUR PREVIOUS BOARD MARKS:-</label>
+  <input type="MARKS" id="MARKS" name="MARKS" required><br><br>
+  <input type="submit" formmethod="get" value="submit">
+</form>
+
+     <h1>THANK YOU</h1>
+</section>
